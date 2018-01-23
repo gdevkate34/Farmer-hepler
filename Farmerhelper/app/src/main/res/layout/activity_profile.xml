@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.farmerhelper.ProfileActivity">
+
+    <Button
+        android:id="@+id/cropsb"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#F8C471"
+        android:onClick="GoToCrops"
+        android:text="पीके"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/newsb"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cropsb"
+        android:background="#CD5C5C"
+        android:onClick="GoToNews"
+        android:text="बातम्या"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/weatherb"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/newsb"
+        android:background="#85929E"
+        android:onClick="GoToWeather"
+        android:text=" हवामान"
+        android:textSize="50dp" />
+</RelativeLayout>

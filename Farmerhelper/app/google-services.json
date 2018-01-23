@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "920065649776",
+    "firebase_url": "https://farmerhelper-9bf0c.firebaseio.com",
+    "project_id": "farmerhelper-9bf0c",
+    "storage_bucket": "farmerhelper-9bf0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920065649776:android:fe7248197058cd77",
+        "android_client_info": {
+          "package_name": "com.example.dell.farmerhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920065649776-esecljallag4ck8b6p1s5rndp7v0slgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.farmerhelper",
+            "certificate_hash": "339cf8cda6d448a105f78e0de4c2ab5ca2373916"
+          }
+        },
+        {
+          "client_id": "920065649776-j2gc4havvmbrp6949uc86r9jaadi4vkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwlulnM6c_j0BaEpAoAz--z8pm76T9oBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920065649776-j2gc4havvmbrp6949uc86r9jaadi4vkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

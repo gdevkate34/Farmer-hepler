@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFC300"
+            >
+
+    <EditText
+        android:id="@+id/editTextEmail"
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editTextPassword"
+        android:layout_alignStart="@+id/editTextPassword"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="ईमेल"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColorHint="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="पासवर्ड"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/toLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="लॉग इन"
+        android:onClick="userLogin"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+
+        android:text="नवीन? खाते तयार करा"
+        android:onClick="registerUser"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/background" />
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
